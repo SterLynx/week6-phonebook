@@ -21,7 +21,7 @@ def signup():
         last_name = form.last_name.data
         phone_number = form.phone_number.data
         address = form.address.data
-        submit = SubmitField('Sign Up')
+        
         # print(first_name, last_name, username, email, password)
 
         # Check to see if we already have a User with that username or email
